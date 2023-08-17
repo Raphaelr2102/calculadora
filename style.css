@@ -7,8 +7,13 @@ body {
     align-items: center;
     min-height: 100vh;
   }
+   
+  body * {
+    box-sizing: border-box;
+  }
+  
   #calculator {
-    width: 80%;
+    width: 75%;
     max-width: 400px;
     background-color: #fff;
     border-radius: 10px;
@@ -57,3 +62,37 @@ body {
  .cal{
     width: 25vw;
  }
+
+ @media only screen and (max-width: 950px){
+  #calculator{
+    width: 85%;
+  }
+
+ }
+
+ @media only screen and (max-width: 950px){
+  body{
+    flex-direction: column;
+
+  }
+
+
+#calculator{
+  width: 90%;
+  height: auto;
+}
+
+
+.cal{
+  width: 28vh;
+}
+ }
+
+ 
+
+ 
+
+
+
+  
+ 
